@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from app2 import views as aplicacion2
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('btn/',app2.displayBtn),
+    path('btn2/',app2.displayBtn2),
+
 ]
