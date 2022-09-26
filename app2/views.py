@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.https import HttpResponse
+from django.http import HttpResponse
 # Create your views here.
 def displayBtn (request):
     return HttpResponse("<div><a class='btn' href=''></a><button class='btn' type='submit'>Coso</button></div>")
